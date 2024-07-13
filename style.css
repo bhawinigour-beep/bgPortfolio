@@ -1,0 +1,62 @@
+.gradient-background {
+    background: linear-gradient(to bottom, #8e8686e1, #000a0c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    h1, h3 {
+        font-family: 'Playwrite HR Lijeva', sans-serif;
+    }
+   
+    .profile_img {
+        width: 200px; /* Adjust this to match your image's width */
+        height: 200px; /* Adjust this to match your image's height */
+        border-radius: 50%;
+        object-fit: cover; /* Ensures the image covers the entire circle */
+        overflow: hidden;
+    }
+    .gradient-background2 {
+        background: linear-gradient(to bottom, #8882a1e1, #372c44);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+
+    }
+    @media (max-width: 769px) {
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .responsive-img {
+            width: 100%; 
+            height: 100%;
+        }
+    }
+   
+     
+    
